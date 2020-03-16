@@ -31,8 +31,8 @@ You can open the app and override the block. Here's how:</br>
 ```
    1. Open System Preferences.
    2. Go to Security & Privacy and select the General tab.
-   3. Click on the button '__`Open Anyway`__'.
-   4. You’ll be asked one more time, and clicking __`Open`__.
+   3. Click on the button 'Open Anyway'.
+   4. You’ll be asked one more time, and clicking 'Open'.
 ```
 </br>
 
