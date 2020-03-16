@@ -5,6 +5,10 @@
 # For Linux system (command lines)
 First of all, please install the R software environment (https://www.r-project.org), and three packages.</br>
 
+# Download: 
+Software: https://github.com/xukaili/CandiHap/raw/master/Linux/CandiHap-1.0.1.zip</br>
+Test Data: https://github.com/xukaili/CandiHap/raw/master/test_data.zip</br>
+
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
 

@@ -2,6 +2,10 @@
 # Haplotype analysis in Sanger __`.ab1`__ files (Linux system)
 First of all, please install GATK (GenomeAnalysisTK.jar), Picard (picard.jar), bwa, samtools, bcftools, bgzip, java, perl and R (with sangerseqR)</br></br>
 
+# Download: 
+Software: https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_CandiHap-1.0.1.zip</br>
+Test Data: https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_teat_data.zip</br>
+
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
 
