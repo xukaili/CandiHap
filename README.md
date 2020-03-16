@@ -6,12 +6,12 @@ CandiHap is a user-friendly local software, that can fast preselect candidate ca
 1). Convert the VCF file to the hapmap format for CandiHap (vcf2hmp);</br>
 2). Haplotype analysis for a gene (CandiHap);</br>
 3). Haplotype analysis for all genes in the LD regions of a significant SNP position one by one (GWAS_LD2haplotypes);</br>
-4). Haplotype analysis for Sanger sequencing data of population variation, that run on Unix-like systems (sanger_CandiHap.sh).</br>
+4). Haplotype analysis for Sanger sequencing data of population variation, that run on Linux systems (sanger_CandiHap.sh).</br>
 
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
 
-> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang (王兴春). CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
+> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang* (王兴春). CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
 > （☯ Equal contributors; * Correspondence）</br>
 </br>
 
