@@ -8,17 +8,16 @@ First of all, please install the R software environment (https://www.r-project.o
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
 
-> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang (王兴春). CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
+> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang (王兴春)*. CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
 > （☯ Equal contributors; * Correspondence）</br>
 </br>
 
 ## To Install __`R`__ for Mac OS X
-First of all, please install the R software environment as follows:</br>
 ```
    1. Open an internet browser and go to link: https://www.r-project.org
    2. Click the "download R" link in the middle of the page under "Getting Started."
    3. Select a CRAN location (a mirror site) and click the corresponding link.
-   4. Click on the "Download R for (Mac) OS X" link at the top of the page.
+   4. Click on the "Download R for Mac OS X" link at the top of the page.
    5. Click on Download R-3.5.0.pkg (or a newer version).
    6. Install R. Leave all default settings in the installation options.
    7. Open R and install three packages by command： 
@@ -32,8 +31,8 @@ You can open the app and override the block. Here's how:</br>
 ```
    1. Open System Preferences.
    2. Go to Security & Privacy and select the General tab.
-   3. Click on the button 'Open Anyway'.
-   4. You’ll be asked one more time, and clicking Open.
+   3. Click on the button '__`Open Anyway`__'.
+   4. You’ll be asked one more time, and clicking __`Open`__.
 ```
 </br>
 
