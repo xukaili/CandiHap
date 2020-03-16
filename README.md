@@ -18,7 +18,7 @@ Academic users may download and use the application free of charge according to 
 ## Dependencies
 __`perl 5`__, __`R ≥ 3.2`__ (with ggplot2, agricolae, pegas and sangerseqR), and __`electron`__. </br></br>
 
-
+## Figures
 ![CandiHap](Figures/CandiHap.png)
 Fig. 1 | Overview of the CandiHap process. a, A GWAS result. b, General scheme of the process. c, The histogram of phenotype. d, The statistics of haplotypes and significant differences haplotypes are highlighted by color boxes. e, Gene structure and SNPs of a critical gene. f, Boxplot of a critical gene’s haplotypes. </br>
 

@@ -35,8 +35,7 @@ Put __`vcf2hmp.pl`__  test.gff, test.vcf, and genome.fa files in a same dir, the
      retrieve_seq_from_fasta.pl --format refGene --seqfile  genome.fa  si_refGene.txt --outfile si_refGeneMrna.fa
      table_annovar.pl  test.vcf  ./  --vcfinput --outfile  test --buildver  si --protocol refGene --operation g -remove
 
-     # 2. To convert the txt result of annovar to hapmap format:
-          # 0.1 means the minor allele frequency (MAF)
+     # 2. To convert the txt result of annovar to hapmap format, 0.1 means the minor allele frequency (MAF):
      perl  vcf2hmp.pl  test.vcf  test.si_multianno.txt  0.1
 ```
 </br>
