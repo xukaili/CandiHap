@@ -4,6 +4,7 @@
 
 # For Windows
 The installation package integrates the necessary Perl and R modules for running independently, meaning no more software installation required.</br>
+Download: https://github.com/xukaili/CandiHap/raw/master/Windows_X64/CandiHap_Setup-1.0.1.exe</br>
 
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
