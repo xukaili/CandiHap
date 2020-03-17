@@ -6,9 +6,9 @@
 The installation package integrates the necessary Perl and R modules for running independently, meaning no more software installation required.</br>
 
 ## Download:
-**Software**:   [GitHub](https://github.com/xukaili/CandiHap/raw/master/Windows_X64/CandiHap_Setup-1.0.1.exe)             [Google Drive](https://drive.google.com/file/d/1gspSamGaO3xOOMzm6cAJ2ysmVMP09PKp/view?usp=sharing)             [Baidu Pan](https://pan.baidu.com/s/18hMy5D9WhbMoDzR-q2z5ZA):   access_code: **8xbc**</br></br>
+**Software**:      [GitHub](https://github.com/xukaili/CandiHap/raw/master/Windows_X64/CandiHap_Setup-1.0.1.exe)                [Google Drive](https://drive.google.com/file/d/1gspSamGaO3xOOMzm6cAJ2ysmVMP09PKp/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/18hMy5D9WhbMoDzR-q2z5ZA):   access_code: **8xbc**</br>
 
-**Test Data**:  [GitHub](https://github.com/xukaili/CandiHap/raw/master/test_data.zip)             [Google Drive](https://drive.google.com/file/d/1L2FTr1ktxU5Jgkuk4QXIJIMHHSzri9l4/view?usp=sharing)             [Baidu Pan](https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA):   access_code: **i2sr**</br></br>
+**Test Data**:     [GitHub](https://github.com/xukaili/CandiHap/raw/master/test_data.zip)                [Google Drive](https://drive.google.com/file/d/1L2FTr1ktxU5Jgkuk4QXIJIMHHSzri9l4/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA):   access_code: **i2sr**</br></br>
 
 
 
