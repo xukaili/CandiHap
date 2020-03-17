@@ -2,7 +2,7 @@
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100"> <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_win.gif" width="100" height="100">
 
-**CandiHap** is a user-friendly local software, that can fast preselect candidate causal SNPs from Sanger or next-generation sequencing data, and report results in table and exquisite vector-graphs within a minute. Investigators can use CandiHap to specify a gene or linkage sites based on GWAS and explore favourable haplotypes of candidate genes for target traits. CandiHap can be run on computers with Windows, Mac, or UNIX platforms in graphical user interface or command lines, and applied to any species of plant, animal and microbial. The analysis of CandiHap can do as the followings: </br></br>
+**CandiHap** is a user-friendly local software, that can fast preselect candidate causal SNPs from **Sanger or next-generation sequencing data**, and report results in table and exquisite vector-graphs within a minute. Investigators can use CandiHap to specify a gene or linkage sites based on GWAS and explore favourable haplotypes of candidate genes for target traits. CandiHap can be run on computers with Windows, Mac, or UNIX platforms in graphical user interface or command lines, and applied to **any species** of plant, animal and microbial. The analysis of CandiHap can do as the followings: </br></br>
     **1).** Convert the VCF file to the hapmap format for CandiHap (vcf2hmp);</br>
     **2).** Haplotype analysis for a gene (CandiHap);</br>
     **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (GWAS_LD2haplotypes);</br>
