@@ -4,9 +4,9 @@ First of all, please install GATK (GenomeAnalysisTK.jar), Picard (picard.jar), b
 
 ## Download:
 Software: https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_CandiHap-1.0.1.zip</br>
-      Or: https://pan.baidu.com/s/1ShMMMNogsJNdx3GOyMIj_w            access_code: zuqy</br></br>
+      Or: https://pan.baidu.com/s/1ShMMMNogsJNdx3GOyMIj_w            access_code: zuqy</br></br>
 Test Data: https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_teat_data.zip</br>
-       Or: https://pan.baidu.com/s/1Y-Ohg-Q8AiXLDJDoQxkMzA           access_code: cp6r</br></br>
+       Or: https://pan.baidu.com/s/1Y-Ohg-Q8AiXLDJDoQxkMzA           access_code: cp6r</br></br>
 
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
@@ -31,7 +31,7 @@ e.g. sh  sanger_CandiHap.sh  PHYC.txt
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Sanger_Figure.png">
 
-Fig. 1 | Overview of the sanger_CandiHap process. a, General scheme of the process from Sanger ab1 files. b, PeakTrace of ab1 images of three main genotypes. c, The statistics of haplotypes. </br>
+**Fig. 1 | Overview of the sanger_CandiHap process. a,** General scheme of the process from Sanger ab1 files. **b,** PeakTrace of ab1 images of three main genotypes. **c,** The statistics of haplotypes. </br>
 
 ## Contact information
 In the future, CandiHap will be regularly updated, and extended to fulfill more functions with more user-friendly options.</br>
