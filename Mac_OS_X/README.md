@@ -3,11 +3,11 @@
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100">
 
 # For Mac OS X
-First of all, please install the R software environment (https://www.r-project.org), and three packages.</br>
+First of all, please install the **R software environment** (https://www.r-project.org), and three packages.</br>
 
 ## Download:
 Software: https://github.com/xukaili/CandiHap/raw/master/Mac_OS_X/CandiHap-1.0.1.dmg</br>
-           Or: https://pan.baidu.com/s/1Cd4luIxElLHRkiay9isFmQ                     access_code: **xx7n**</br></br>
+           Or: https://pan.baidu.com/s/1Cd4luIxElLHRkiay9isFmQ                       access_code: **xx7n**</br></br>
 Test Data: https://github.com/xukaili/CandiHap/raw/master/test_data.zip</br>
             Or: https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA                 access_code: **i2sr**</br></br>
 

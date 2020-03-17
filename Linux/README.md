@@ -3,7 +3,7 @@
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100">
 
 # For Linux system (command lines)
-First of all, please install the R software environment (https://www.r-project.org), and three packages.</br>
+First of all, please install the **R software environment** (https://www.r-project.org), and three packages.</br>
 
 ## Download:
 Software: https://github.com/xukaili/CandiHap/raw/master/Linux/CandiHap-1.0.1.zip</br>
