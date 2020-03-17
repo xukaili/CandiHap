@@ -7,6 +7,7 @@ First of all, please install the **R software environment** (https://www.r-proje
 
 ## Download:
 Software: https://github.com/xukaili/CandiHap/raw/master/Mac_OS_X/CandiHap-1.0.1.dmg</br>
+           Or: https://drive.google.com/file/d/1BluXrsNxBgQksamGH-prb-BOWv9wcotr/view?usp=sharing</br>
            Or: https://pan.baidu.com/s/1Cd4luIxElLHRkiay9isFmQ                       access_code: **xx7n**</br></br>
 Test Data: https://github.com/xukaili/CandiHap/raw/master/test_data.zip</br>
             Or: https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA                 access_code: **i2sr**</br></br>

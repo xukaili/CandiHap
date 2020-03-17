@@ -7,7 +7,9 @@ The installation package integrates the necessary Perl and R modules for running
 
 ## Download:
 Software: https://github.com/xukaili/CandiHap/raw/master/Windows_X64/CandiHap_Setup-1.0.1.exe</br>
+           Or: https://drive.google.com/file/d/1gspSamGaO3xOOMzm6cAJ2ysmVMP09PKp/view?usp=sharing</br>
            Or: https://pan.baidu.com/s/18hMy5D9WhbMoDzR-q2z5ZA                  access_code: **8xbc**</br></br>
+
 Test Data: https://github.com/xukaili/CandiHap/raw/master/test_data.zip</br>
             Or: https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA                     access_code: **i2sr**</br></br>
 
