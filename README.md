@@ -8,6 +8,9 @@
     **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (**GWAS_LD2haplotypes**);</br>
     **4).** Haplotype analysis for Sanger sequencing data of population variation (**sanger_CandiHap.sh**).</br>
 
+## Download:
+**Download All Files**:      [GitHub](https://github.com/xukaili/CandiHap/archive/master.zip)                [Google Drive](https://drive.google.com/drive/folders/1rkm__0jlPrWvs8Cy_T46d3sKBf6UIVhQ?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1migiq6x5v5CgYlBntY8aYw):   access_code: **4d4q**</br></br>
+
 ## License
 Academic users may download and use the application free of charge according to the accompanying license. Commercial users must obtain a commercial license from Xukai Li. If you have used the program to obtain results, please cite the following paper:</br>
 
