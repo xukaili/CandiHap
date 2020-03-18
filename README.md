@@ -2,19 +2,19 @@
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100"> <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_win.gif" width="100" height="100">
 
-**CandiHap** is a user-friendly local software, that can fast preselect candidate causal SNPs from **Sanger or next-generation sequencing data**, and report results in table and exquisite vector-graphs within a minute. Investigators can use CandiHap to specify a gene or linkage sites based on GWAS and explore favourable haplotypes of candidate genes for target traits. CandiHap can be run on computers with **Windows**, **Mac OS X**, or **Linux** platforms in graphical user interface or command lines, and applied to **any species** of plant, animal and microbial. The analysis of CandiHap can do as the followings: </br></br>
-    **1).** Convert the VCF file to the hapmap format for CandiHap (**vcf2hmp**);</br>
-    **2).** Haplotype analysis for a gene (**CandiHap**);</br>
-    **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (**GWAS_LD2haplotypes**);</br>
-    **4).** Haplotype analysis for Sanger sequencing data of population variation (**sanger_CandiHap.sh**).</br>
+__`CandiHap`__ is a user-friendly local software, that can fast preselect candidate causal SNPs from __`Sanger or next-generation sequencing data`__, and report results in table and exquisite vector-graphs within a minute. Investigators can use CandiHap to specify a gene or linkage sites based on GWAS and explore favourable haplotypes of candidate genes for target traits. CandiHap can be run on computers with __`Windows`__, __`Mac OS X`__, or __`Linux`__ platforms in graphical user interface or command lines, and applied to __`any species`__ of plant, animal and microbial. The analysis of CandiHap can do as the followings: </br></br>
+    **1).** Convert the VCF file to the hapmap format for CandiHap (__`vcf2hmp`__);</br>
+    **2).** Haplotype analysis for a gene (__`CandiHap`__);</br>
+    **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (__`GWAS_LD2haplotypes`__);</br>
+    **4).** Haplotype analysis for Sanger sequencing data of population variation (__`sanger_CandiHap.sh`__).</br>
 
 ## Download:
 **Download All Files**:      [GitHub](https://github.com/xukaili/CandiHap/archive/master.zip)                [Google Drive](https://drive.google.com/drive/folders/1rkm__0jlPrWvs8Cy_T46d3sKBf6UIVhQ?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1migiq6x5v5CgYlBntY8aYw):   access_code: **4d4q**</br></br>
 
 ## License
-**Academic users** may download and use the application free of charge according to the accompanying license.</br>
-**Commercial users** must obtain a commercial license from Xukai Li.</br>
-If you have used the program to obtain results, please cite the following paper:</br>
+__`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
+__`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
+**If you have used the program to obtain results, please cite the following paper:**</br>
 > Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang* (王兴春). CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
 > （☯ Equal contributors; * Correspondence）</br>
 </br>
