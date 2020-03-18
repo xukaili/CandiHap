@@ -1,6 +1,9 @@
 # CandiHap: a haplotype analysis toolkit for natural variation study.
-# Haplotype analysis in Sanger __`.ab1`__ files (Linux system)
-First of all, please install __`GATK`__ (GenomeAnalysisTK.jar), __`Picard`__ (picard.jar), __`bwa`__, __`samtools`__, __`bcftools`__, __`bgzip`__, __`java`__ and __`R`__ (with sangerseqR)</br></br>
+
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100">
+
+# Haplotype analysis for Sanger __`.ab1`__ files on Linux system
+First of all, please install __`GATK`__ (GenomeAnalysisTK.jar), __`Picard`__ (picard.jar), __`bwa`__, __`samtools`__, __`bcftools`__, __`bgzip`__, __`java`__ and __`R`__ (with sangerseqR).</br></br>
 
 ## Download:
 **Software**:      [GitHub](https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_CandiHap-1.0.1.zip)                [Google Drive](https://drive.google.com/file/d/1QgVMbSYx27_j_OYzu5OWWRshSehsoZkJ/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1ShMMMNogsJNdx3GOyMIj_w):   access_code: **zuqy**</br>
@@ -21,7 +24,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
       3. Select a CRAN location (a __`mirror site`__) and click the corresponding link.</br>
       4. Click on the '__`Download R for Linux`__' link at the top of the page.</br>
       5. Click on Download '__`R-3.5.0`__' (or a newer version).</br>
-      6. Install R. Leave all default settings in the installation options.</br>
+      6. Install R and leave all default settings in the installation options.</br>
       7. Open R and install the package by command: </br>
           __`if (! requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")`__</br>
           __`if (! require("sangerseqR")) BiocManager::install("sangerseqR")`__</br>
@@ -36,7 +39,7 @@ e.g. sh  sanger_CandiHap.sh  PHYC.txt
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Sanger_Figure.png">
 
-**Fig. 1 | Overview of the sanger_CandiHap process. a,** General scheme of the process from Sanger __`.ab1`__ files. **b,** PeakTrace of ab1 images of three main genotypes. **c,** The statistics of haplotypes. </br>
+**Fig. 1 | Overview of the sanger_CandiHap process. a,** General scheme of the process from Sanger __`.ab1`__ files. **b,** PeakTrace of ab1 images of three main genotypes. **c,** The statistics of haplotypes. </br></br>
 
 ## Contact information
 In the future, **CandiHap** will be regularly updated, and extended to fulfill more functions with more user-friendly options.</br>

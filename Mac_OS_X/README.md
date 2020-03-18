@@ -24,7 +24,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
       3. Select a CRAN location (a __`mirror site`__) and click the corresponding link.</br>
       4. Click on the '__`Download R for (Mac) OS X`__' link at the top of the page.</br>
       5. Click on Download '__`R-3.5.0.pkg`__' (or a newer version).</br>
-      6. Install R. Leave all default settings in the installation options.</br>
+      6. Install R and leave all default settings in the installation options.</br>
       7. Open R and install three packages by command: </br>
           __`install.packages(c("ggplot2", "agricolae", "pegas"))`__</br>
 </br>
@@ -38,8 +38,8 @@ You can open the app and override the block. Here's how:</br>
       4. You’ll be asked one more time, and clicking '__`Open`__'.</br>
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_1.png"  height="200">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  height="650">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  height="200">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  height="450">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  height="230">
 </br>
 
 ## Contact information
