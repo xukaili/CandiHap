@@ -1,4 +1,4 @@
-# CandiHap: a haplotype analysis toolkit for natural variation study.
+## CandiHap: a haplotype analysis toolkit for natural variation study.
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_win.gif" width="100" height="100">
 

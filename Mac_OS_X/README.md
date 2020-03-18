@@ -1,4 +1,4 @@
-# CandiHap: a haplotype analysis toolkit for natural variation study.
+## CandiHap: a haplotype analysis toolkit for natural variation study.
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/logo_mac.gif" width="100" height="100">
 
@@ -37,9 +37,9 @@ You can open the app and override the block. Here's how:</br>
       3. Click on the button '__`Open Anyway`__'.</br>
       4. You’ll be asked one more time, and clicking '__`Open`__'.</br>
 
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_1.png"  height="200">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  height="450">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  height="230">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_1.png"  height="190">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  height="460">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  height="210">
 </br>
 
 ## Contact information
