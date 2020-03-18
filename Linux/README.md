@@ -52,7 +52,7 @@ e.g. perl  CandiHap.pl  ./haplotypes.hmp  ./Phenotype.txt  ./test.gff  Si9g49990
 ```
 </br>
 
-By the way, if you want do run **All gene in LD region of a position**, please run:</br>
+By the way, if you want do analysis __`All gene in LD region of a position`__, please run:</br>
 ```
      perl  GWAS_LD2haplotypes.pl  ./genome.gff  ./ann.hmp  ./Phenotype.txt  50kb  Chr:position
 e.g. perl  GWAS_LD2haplotypes.pl  ./test.gff  ./haplotypes.hmp  ./Phenotype.txt  50kb  9:54583294

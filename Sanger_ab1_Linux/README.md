@@ -39,7 +39,7 @@ e.g. sh  sanger_CandiHap.sh  PHYC.txt
 
 <img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Sanger_Figure.png">
 
-**Fig. 1 | Overview of the sanger_CandiHap process. a,** General scheme of the process from Sanger __`.ab1`__ files. **b,** PeakTrace of ab1 images of three main genotypes. **c,** The statistics of haplotypes. </br></br>
+**Fig. 1 | Overview of the sanger_CandiHap process.** __`a,`__ General scheme of the process from Sanger **.ab1** files. __`b,`__ PeakTrace of ab1 images of three main genotypes. __`c,`__ The statistics of haplotypes. </br></br>
 
 ## Contact information
 In the future, **CandiHap** will be regularly updated, and extended to fulfill more functions with more user-friendly options.</br>
