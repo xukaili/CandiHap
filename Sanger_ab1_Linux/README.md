@@ -32,7 +32,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 
 ## Getting started
 Put __`sanger_CandiHap.sh`__, __`Gene_VCF2haplotypes.pl`__, __`ab1-fastq.pl`__ and and all __`.ab1`__ files in a same dir, then run:</br>
-```
+```sh
      sh  sanger_CandiHap.sh  Gene_ref.fa
 e.g. sh  sanger_CandiHap.sh  PHYC.txt
 ```
