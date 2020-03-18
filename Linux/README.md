@@ -26,7 +26,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
       5. Click on Download '__`R-3.5.0`__' (or a newer version).</br>
       6. Install R. Leave all default settings in the installation options.</br>
       7. Open R and install three packages by command: </br>
-          __`install.packages(c("ggplot2", "agricolae", "pegas"))`__'</br>
+          __`install.packages(c("ggplot2", "agricolae", "pegas"))`__</br>
 </br>
 
 ## Getting started
