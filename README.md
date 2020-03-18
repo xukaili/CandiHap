@@ -26,7 +26,7 @@ __`perl 5`__, __`R ≥ 3.2`__ (with ggplot2, agricolae, pegas and sangerseqR), a
 ![CandiHap](Figures/CandiHap.png)
 **Fig. 1 | Overview of the CandiHap process.** __`a,`__ A GWAS result. __`b,`__ General scheme of the process. __`c,`__ The histogram of phenotype. __`d,`__ The statistics of haplotypes and significant differences haplotypes are highlighted by color boxes. __`e,`__ Gene structure and SNPs of a critical gene. __`f,`__ Boxplot of a critical gene’s haplotypes. </br>
 
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/HaploNet.png"  height="750">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/HaploNet.png"  height="600">
 
 **Fig. 2 | Haplotype network analysis for** ***Si9g49990***. __`a,`__ The difference of haplotypes. __`b,`__ Haplotype network. Note: only the SNPs and haplotypes found in ≥2 accessions were used to construct the haplotype network. The value of circle size had converted into *log2*. </br>
 
