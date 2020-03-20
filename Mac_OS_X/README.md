@@ -29,6 +29,16 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
           __`install.packages(c("ggplot2", "agricolae", "pegas"))`__</br>
 </br>
 
+## Getting started
+To annotate the vcf by ANNOVAR:</br>
+```sh
+     gffread  test.gff   -T -o test.gtf
+     gtfToGenePred -genePredExt test.gtf  si_refGene.txt
+     retrieve_seq_from_fasta.pl --format refGene --seqfile  genome.fa  si_refGene.txt --outfile si_refGeneMrna.fa
+     table_annovar.pl  test.vcf  ./  --vcfinput --outfile  test  --buildver  si  --protocol refGene --operation g -remove
+```
+</br>
+
 ## To Install __`CandiHap.app`__ for Mac OS X
 If you attempt to open CandiHap.app and macOS stops you from doing so, that doesn't necessarily mean there is something wrong with the app. But it will indicate that the app is from an '__`unidentified developer`__'.</br>
 You can open the app and override the block. Here's how:</br>
@@ -37,9 +47,9 @@ You can open the app and override the block. Here's how:</br>
       3. Click on the button '__`Open Anyway`__'.</br>
       4. You’ll be asked one more time, and clicking '__`Open`__'.</br>
 
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_1.png"  height="180">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  height="460">
-<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  height="200">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_1.png"  width="458" height="180">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_2.png"  width="652" height="460">
+<img src="https://github.com/xukaili/CandiHap/blob/master/Figures/Mac_ReadMe_3.png"  width="404" height="200">
 </br>
 
 ## Contact information

@@ -18,6 +18,16 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 > （☯ Equal contributors; * Correspondence）</br>
 </br>
 
+## Getting started
+To annotate the vcf by ANNOVAR:</br>
+```sh
+     gffread  test.gff   -T -o test.gtf
+     gtfToGenePred -genePredExt test.gtf  si_refGene.txt
+     retrieve_seq_from_fasta.pl --format refGene --seqfile  genome.fa  si_refGene.txt --outfile si_refGeneMrna.fa
+     table_annovar.pl  test.vcf  ./  --vcfinput --outfile  test  --buildver  si  --protocol refGene --operation g -remove
+```
+</br>
+
 ## Contact information
 In the future, **CandiHap** will be regularly updated, and extended to fulfill more functions with more user-friendly options.</br>
 For any questions please contact xukai_li@sxau.edu.cn or xukai_li@qq.com </br>
