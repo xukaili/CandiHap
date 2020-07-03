@@ -146,7 +146,7 @@ return $currentMinCnt;
 }
 $wilcox_max = &max(@b);
 $wilcox_min = &min(@b);
-$wilcox_min = 0.01  if ($wilcox_min > 0.01);
+#$wilcox_min = 0.01  if ($wilcox_min > 0.01);
 #$wilcox_min = 0.00046415888  if ($wilcox_min > 0.00046415888);
 @b='';
 
