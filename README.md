@@ -6,8 +6,8 @@ __`CandiHap`__ is a user-friendly local software, that can fast preselect candid
     **1).** Convert the VCF file to the hapmap format for CandiHap (__`vcf2hmp`__);</br>
     **2).** Haplotype analysis for a gene (__`CandiHap`__);</br>
     **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (__`GWAS_LD2haplotypes`__);</br>
-    **4).** Haplotype analysis for Sanger sequencing data of population variation (__`sanger_CandiHap.sh`__).</br>
-And a new __`CandiHap`__ V2 R package is publicly available at https://github.com/guokai8/CandiHap ！
+    **4).** Haplotype analysis for Sanger sequencing data of population variation (__`sanger_CandiHap.sh`__).</br></br>
+And a new __`CandiHap`__ V2 R package is publicly available at https://github.com/guokai8/CandiHap ！</br>
 
 ## Download:
 **Download All Files**:      [GitHub](https://github.com/xukaili/CandiHap/archive/master.zip)                [Google Drive](https://drive.google.com/drive/folders/1rkm__0jlPrWvs8Cy_T46d3sKBf6UIVhQ?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1migiq6x5v5CgYlBntY8aYw):   access_code: **4d4q**</br></br>
