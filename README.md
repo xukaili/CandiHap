@@ -25,7 +25,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 __`perl 5`__, __`R ≥ 3.2`__ (with ggplot2, agricolae, pegas and sangerseqR), and __`electron`__. </br></br>
 
 ## Figures
-![CandiHap](Figures/CandiHap2.png)
+![CandiHap](Figures/CandiHap.png)
 **Fig. 1 | Overview of the CandiHap process.** __`a,`__ A GWAS result. __`b,`__ General scheme of the process. __`c,`__ The histogram of phenotype. __`d,`__ The statistics of haplotypes and significant differences haplotypes are highlighted by color boxes. __`e,`__ Gene structure and SNPs of a critical gene. __`f,`__ Boxplot of a critical gene’s haplotypes. </br>
 
 ![Rice-2018_Nat_Commun_9_735](Figures/Rice-2018_Nat_Commun_9_735.png)
