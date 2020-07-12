@@ -7,6 +7,7 @@ __`CandiHap`__ is a user-friendly local software, that can fast preselect candid
     **2).** Haplotype analysis for a gene (__`CandiHap`__);</br>
     **3).** Haplotype analysis for all genes in the LD regions of a significant SNP one by one (__`GWAS_LD2haplotypes`__);</br>
     **4).** Haplotype analysis for Sanger sequencing data of population variation (__`sanger_CandiHap.sh`__).</br></br>
+    
 And a new __`CandiHap`__ V2 R package is publicly available at https://github.com/guokai8/CandiHap ！</br>
 
 ## Download:
@@ -24,7 +25,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 __`perl 5`__, __`R ≥ 3.2`__ (with ggplot2, agricolae, pegas and sangerseqR), and __`electron`__. </br></br>
 
 ## Figures
-![CandiHap](Figures/CandiHap.png)
+![CandiHap](Figures/CandiHap2.png)
 **Fig. 1 | Overview of the CandiHap process.** __`a,`__ A GWAS result. __`b,`__ General scheme of the process. __`c,`__ The histogram of phenotype. __`d,`__ The statistics of haplotypes and significant differences haplotypes are highlighted by color boxes. __`e,`__ Gene structure and SNPs of a critical gene. __`f,`__ Boxplot of a critical gene’s haplotypes. </br>
 
 ![Rice-2018_Nat_Commun_9_735](Figures/Rice-2018_Nat_Commun_9_735.png)
