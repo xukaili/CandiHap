@@ -81,7 +81,8 @@ while (<HMP>) {
             $a[$i] =~ /(.*)\/(.*)/;
             next if ($1 ne $2);
             $TT = "$a[1]\t$a[$i]";
-            $Ttest{$TT} .= "$TT\t$name{$names[$i]}\n" ;
+            $Ttest{$TT} .= "$TT\t$name{$names[$i]}\n";
+            print "xxx.  $Ttest{$TT} \n";
         }
     }
     $l = "$a[1]\t$a[2]\t$a[3]\t$a[4]\t$a[5]\t" . join ("\t",@a[6..$#a]);
@@ -119,7 +120,7 @@ EOF
 system("Rscript wilcox-$ARGV[3]-$Phenotype.R");
 
 @a ='';
-open TEST, "tmp-wilcox_result-$ARGV[3]-$Phenotype.txt" or die $!;
+open TEST, "tmp-wilcox_result-$ARGV[3]-$Phenotype.txt" if (-z "tmp-wilcox_result-$ARGV[3]-$Phenotype.txt");
 while (<TEST>) {
     $_ =~ s/\r*\n*//g;
     @a = split(/\t/,$_);
@@ -150,8 +151,8 @@ $wilcox_min = &min(@b);
 #$wilcox_min = 0.00046415888  if ($wilcox_min > 0.00046415888);
 @b='';
 
-$threshold = 10 ** (log($wilcox_min)/log(10) * 0.6);
-#$threshold = 1;
+#$threshold = 10 ** (log($wilcox_min)/log(10) * 0.6);
+$threshold = 1;
 print "The minimum wilcox test is: $wilcox_min\nThe wilcox test threshold is: $threshold\n\n";
 
 open OUT,">tmp-$ARGV[3]-$Phenotype.txt" or die $!;
@@ -435,6 +436,7 @@ pdf(file="Plot_gene-$ARGV[3]-$Phenotype.pdf")
 EOF
 for ($i = 1; $i <= $gene_n; $i++) {
   $new_gff = $ARGV[3] . '.' . $i;
+  $new_gff = $ARGV[3] if (-z "tmp-gene_gff-$new_gff-$Phenotype.txt");
   #$j = ($i)*0.5;
   print OUTR "$new_gff <- read.table('tmp-gene_gff-$new_gff-$Phenotype.txt',stringsAsFactors = F, header = F,comment.char = \"#\",sep = '\\t')\n";
   print OUTR "genemodel_plot(model=$new_gff, xaxis=T, drop=0)\n";
@@ -470,9 +472,11 @@ df\$hap<-factor(df\$hap,levels=unique(df\$hap))
 if (nrow(diff)-3 > 3) {
     mywidth = (nrow(diff)-3)
 } else {mywidth = 4 }
-
+if (! require("ggbeeswarm")) install.packages("ggbeeswarm")
 pdf(file="Plot_boxplot-$Phenotype-$ARGV[3].pdf", width=mywidth, height=3)
-ggplot(data = df,aes(x = hap, y = Phenotype, group= hap)) +  geom_boxplot(fill=rainbow(length(levels(factor(df\$hap)))), outlier.colour = NA) +  geom_point(size=0.1,position = position_jitter(width=0.15), alpha=.5,shape=20) +labs(title="Boxplot of $ARGV[3] Gene's Haplotypes", x="Haplotypes", y="Value of Phenotype") + geom_text(data=diff,aes(y=-0.1,label=groups))
+ggplot(data = df,aes(x = hap, y = Phenotype, group= hap)) + geom_boxplot(fill=rainbow(length(levels(factor(df\$hap)))), outlier.colour = NA, alpha=.1, color=rainbow(length(levels(factor(df\$hap)))))  +  geom_point(size=0.1,position = position_jitter(width=0.15), alpha=.5,shape=20) +labs(title="Boxplot of $ARGV[3] Gene's Haplotypes", x="Haplotypes", y="Value of Phenotype") + geom_text(data=diff,aes(y=-0.1,label=groups))
+ggplot(data = df,aes(x = hap, y = Phenotype, group= hap)) + geom_boxplot(fill=rainbow(length(levels(factor(df\$hap)))), outlier.colour = NA, alpha=.1, color=rainbow(length(levels(factor(df\$hap)))))  + geom_beeswarm(size = 0.05, cex = 0.6, alpha=0.5) + labs(title="Boxplot of $ARGV[3] Gene's Haplotypes", x="Haplotypes", y="Value of Phenotype") + geom_text(data=diff,aes(y=-0.1,label=groups)) + theme(legend.position="none")
+ggplot(data = df,aes(x = hap, y = Phenotype, group= hap)) + geom_boxplot(fill=rainbow(length(levels(factor(df\$hap)))), outlier.colour = NA) +  geom_point(size=0.1,position = position_jitter(width=0.15), alpha=.5,shape=20) +labs(title="Boxplot of $ARGV[3] Gene's Haplotypes", x="Haplotypes", y="Value of Phenotype") + geom_text(data=diff,aes(y=-0.1,label=groups))
 #boxplot(Phenotype~hap,data=df, col=rainbow(length(levels(factor(df\$hap)))), xlab = "Haplotypes", ylab = "Value of Phenotype", main = "Boxplot of $ARGV[3] Gene's Haplotypes")
 dev.off()
 EOF
