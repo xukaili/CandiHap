@@ -47,18 +47,18 @@ Put __`vcf2hmp.pl`__  test.gff, test.vcf, and genome.fa files in a same dir, the
 Put __`CandiHap.pl`__ and Phenotype.txt, Your.hmp, genome.gff files in a same dir, then run:</br>
 ```sh
      # 3. To run CandiHaplotypes
-     perl  CandiHap.pl  ./Your.hmp  ./Phenotype.txt  ./genome.gff  Your_gene_ID
-e.g. perl  CandiHap.pl  ./haplotypes.hmp  ./Phenotype.txt  ./test.gff  Si9g49990
+     perl  CandiHap.pl  -m Your.hmp  -f Genome.gff  -p Phenotype.txt  -g Your_gene_ID
+e.g. perl  CandiHap.pl  -m haplotypes.hmp  -f test.gff  -p Phenotype.txt  -g Si9g49990
 ```
 </br>
 
 If you want do analysis __`All gene in LD region of a position`__, please run:</br>
 ```sh
-     perl  GWAS_LD2haplotypes.pl  ./genome.gff  ./ann.hmp  ./Phenotype.txt  50kb  Chr:position
-e.g. perl  GWAS_LD2haplotypes.pl  ./test.gff  ./haplotypes.hmp  ./Phenotype.txt  50kb  9:54583294
+     perl  GWAS_LD2haplotypes.pl  -f genome.gff  -m ann.hmp  -p Phenotype.txt   -l LDkb  -c Chr:position
+e.g. perl  GWAS_LD2haplotypes.pl  -f test.gff  -m haplotypes.hmp  -p Phenotype.txt  -l 50kb  -c 9:54583294
 ```
 </br>
 
 ## Contact information
 In the future, **CandiHap** will be regularly updated, and extended to fulfill more functions with more user-friendly options.</br>
-For any questions please contact xukai_li@sxau.edu.cn or xukai_li@qq.com </br>
+For any questions please contact xukai_li@sxau.edu.cn or xukai_li@sxau.edu.cn </br>
