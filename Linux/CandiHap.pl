@@ -2,7 +2,6 @@
 use POSIX qw(strftime);
 use Getopt::Std;
 use File::Basename;
-use threads;
 sub usage {
     die(
         qq!
