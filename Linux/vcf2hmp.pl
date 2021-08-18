@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 my $usage=<<USAGE;
 Usage:
-     perl  $0  Your.vcf Your_multianno.txt   maf
+     perl  $0  Your.vcf Your_multianno.txt
 e.g.
-     perl  vcf2hmp.pl  test.vcf  test.si_multianno.txt  0.1
+     perl  vcf2hmp.pl  test.vcf  test.si_multianno.txt
 USAGE
 
 print $usage if(@ARGV==0);
@@ -47,10 +47,7 @@ while(<ANNOVAR>){
             $a[$i] = $alt[$Fir].'/'.$alt[$Sen];
         }
     }
-    $a[20] =~ /;AF=(\d+\.\d+);/;
-    $AF = $1;
-    next if $AF <= $ARGV[2];
-    $l = "$a[0]\t$a[1]\t$a[3]\t$a[4]\t$a[5]\t$AF\t" . join ("\t",@a[22..$#a]);
+    $l = "$a[0]\t$a[1]\t$a[3]\t$a[4]\t$a[5]\t\t" . join ("\t",@a[22..$#a]);
     print OUT "$l\n";
 }
 close ANNOVAR;
