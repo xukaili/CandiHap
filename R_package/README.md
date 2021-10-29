@@ -1,10 +1,9 @@
 ```sh
 # install the CandiHap package:
-if (! require("devtools ")) install.packages("devtools", dependencies = T)
+if (! require("devtools")) install.packages("devtools", dependencies = T)
 install_github("guokai8/CandiHap")
-if (! require("eoffice")) install.packages("eoffice")
 
-# download the test data from: https://bigd.big.ac.cn/biocode/tools/7080/releases/v2.0.15 
+# download the test data from this file, or at web: https://bigd.big.ac.cn/biocode/tools/7080/releases/v2.0.15 
 
 # run CandiHap
 library(CandiHap)
@@ -47,18 +46,20 @@ topptx(filename ="LDheatmap.pptx")
 snplot(hap,gene="Si9g49990",side=F)
 snplot(hap,gene="Si9g49990",side=F,random = F)
 topptx(filename ="gene_figure.pptx")
-snplot(hap,gene="Si9g49990",side=T,random = F,hapname="haplotype3")
-snplot(hap,gene="Si9g49990",side=F,random = F,hapname="haplotype15",mutateOnly=TRUE)
+snplot(hap,gene="Si9g49990",side=T,random = F,hapname="Hap3")
+snplot(hap,gene="Si9g49990",side=F,random = F,hapname="Hap3",mutateOnly=TRUE)
 
 ## boxplot
-snboxplot(hap,gene="Si9g49990",feature = "Height")
+snboxplot(hap,gene="Si9g49990",feature = names(pheno)[2])
 topptx(filename ="snboxplot.pptx")
 
-hapnet(hap,gene="Si9g49990",feature = "Height")
+hapnet(hap,gene="Si9g49990",feature = names(pheno)[2])
+hapnet(hap,gene="Si9g49990",feature = names(pheno)[2], node.alpha = 1, high = "#DC0000B2", low ="lightblue" )
 topptx(filename ="hapnet.pptx")
 
 
-# plot gene track with snp
+
+# plot gene track with snp (LocalZoom)
 library(CandiHap)
 dat <- read_data("track-Phenotype.gwas.txt",sep="\t")
 # notice that the dat should have the chromosome name in the first column, position in the second column and the values in the following columns 
@@ -66,11 +67,12 @@ dat <- read_data("track-Phenotype.gwas.txt",sep="\t")
 ## id is the gene name you want to display, in gff3 file should be 'Parent'
 #show snp locate in gene only
 snptrack(gff,dat=dat,id="Parent",geneOnly=F, color='r2', low='green',high='red', point.size = 0.5, chr = 9,  region = c(54520000, 54620000))
+snptrack(gff, dat=dat, id="Parent", color='r2', high = "#DC0000B2", low ="lightgreen", exon = "#228B22",  point.size = 0.4, arrow.col = "steelblue3", arrow.fill = "lightblue", chr = 9, region = c(54520000, 54620000), threshold =6.025949097, threshold.col="black")
 topptx(filename ="snptrack.pptx")
 
 ## show some genes
 snptrack(gff,dat=dat,id="Parent",gene='Si9g49990',color='r2',upstream=2000)
+snptrack(gff,dat=dat,id="Parent",gene='Si9g49990',color='r2', high = "#DC0000B2", low ="lightgreen", exon = "darkgreen", utr3 = "cyan4", utr5 = "cyan4",  point.size = 1, arrow.col = "lightblue", arrow.fill = "lightblue",upstream=500, downstream =2000, threshold =6.025949097, threshold.col="black")
 topptx(filename ="gene_snptrack.pptx")
-
      
 ```
