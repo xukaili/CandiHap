@@ -65,9 +65,8 @@ dat <- read_data("track-Phenotype.gwas.txt",sep="\t")
 # notice that the dat should have the chromosome name in the first column, position in the second column and the values in the following columns 
 
 ## id is the gene name you want to display, in gff3 file should be 'Parent'
-#show snp locate in gene only
 snptrack(gff,dat=dat,id="Parent",geneOnly=F, color='r2', low='green',high='red', point.size = 0.5, chr = 9,  region = c(54520000, 54620000))
-snptrack(gff, dat=dat, id="Parent", color='r2', high = "#DC0000B2", low ="lightgreen",  point.size = 0.4, allchr=TRUE, chr = 9, region = c(1, 59244420), threshold =6.025949097, threshold.col="black")
+# snptrack(gff, dat=dat, id="Parent", color='r2', high = "#DC0000B2", low ="lightgreen",  point.size = 0.4, allchr=TRUE, chr = 9, region = c(1, 59244420), threshold =6.025949097, threshold.col="black")
 snptrack(gff, dat=dat, id="Parent", color='r2', high = "#DC0000B2", low ="lightblue", exon = "#228B22",  point.size = 0.4, arrow.col = "steelblue3", arrow.fill = "lightblue", chr = 9, region = c(54520000, 54620000), threshold =6.025949097, threshold.col="black")
 topptx(filename ="snptrack.pptx")
 
