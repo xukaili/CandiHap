@@ -73,7 +73,7 @@ topptx(filename ="snptrack.pptx")
 
 ## show some genes
 snptrack(gff,dat=dat,id="Parent",gene='Si9g49990',color='r2',upstream=2000)
-snptrack(gff,dat=dat,id="Parent",gene='Si9g49990',color='r2', high = "#DC0000B2", low ="lightgreen", exon = "darkgreen", utr3 = "cyan4", utr5 = "cyan4",  point.size = 1, arrow.col = "lightblue", arrow.fill = "lightblue",upstream=500, downstream =2000, threshold =6.025949097, threshold.col="black")
+snptrack(gff,dat=dat,id="Parent",gene='Si9g49990',color='r2', high = "#DC0000B2", low ="lightgreen", exon = "darkgreen", utr3 = "cyan4", utr5 = "cyan4",  point.size = 1, arrow.col = "lightblue", arrow.fill = "lightblue",upstream=2000, downstream =2000, threshold =6.025949097, threshold.col="black")
 topptx(filename ="gene_snptrack.pptx")
      
 ```
