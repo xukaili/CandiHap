@@ -49,6 +49,7 @@ Put __`CandiHap.pl`__ and Phenotype.txt, Your.hmp, genome.gff files in a same di
      # 3. To run CandiHaplotypes
      perl  CandiHap.pl  -m Your.hmp  -f Genome.gff  -p Phenotype.txt  -g Your_gene_ID
 e.g. perl  CandiHap.pl  -m haplotypes.hmp  -f test.gff  -p Phenotype.txt  -g Si9g49990
+     perl  CandiHap.pl  -m haplotypes.hmp  -f test.gff -p Phenotype.txt  -g Si9g49990 -s 0.5 -u 2000 -d 500 -l 1 -n Structure.txt
 ```
 </br>
 
