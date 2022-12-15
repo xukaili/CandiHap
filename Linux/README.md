@@ -6,7 +6,7 @@
 First of all, please install the [**R software environment**](https://www.r-project.org), and three packages.</br>
 
 ## Download:
-**Software and Test Data**:      [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/7080/releases/V1.3.0)
+**Software and Test Data**:      [BioCode: https://ngdc.cncb.ac.cn/biocode/tools/7080/releases/V1.3.0](https://ngdc.cncb.ac.cn/biocode/tools/7080/releases/V1.3.0)
 
 ## License
 __`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
