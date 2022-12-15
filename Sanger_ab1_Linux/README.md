@@ -6,9 +6,9 @@
 First of all, please install __`GATK`__ (GenomeAnalysisTK.jar), __`Picard`__ (picard.jar), __`bwa`__, __`samtools`__, __`bcftools`__, __`bgzip`__, __`java`__ and __`R`__ (with sangerseqR).</br></br>
 
 ## Download:
-**Software**:      [GitHub](https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_CandiHap-1.0.1.zip)                [Google Drive](https://drive.google.com/file/d/1QgVMbSYx27_j_OYzu5OWWRshSehsoZkJ/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1ShMMMNogsJNdx3GOyMIj_w):   access_code: **zuqy**</br>
+**Software**:      [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/BT007080/releases/V1.3.0)                [Google Drive](https://drive.google.com/file/d/1QgVMbSYx27_j_OYzu5OWWRshSehsoZkJ/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1ShMMMNogsJNdx3GOyMIj_w):   access_code: **zuqy**</br>
 
-**Test Data**:     [GitHub](https://github.com/xukaili/CandiHap/raw/master/Sanger_ab1_Linux/sanger_teat_data.zip)                [Google Drive](https://drive.google.com/file/d/1ZiFGuFG01b4r_zsnbhqpaIZAZ-yffUCC/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1Y-Ohg-Q8AiXLDJDoQxkMzA):   access_code: **cp6r**</br></br>
+**Test Data**:     [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/BT007080/releases/V1.3.0)                [Google Drive](https://drive.google.com/file/d/1ZiFGuFG01b4r_zsnbhqpaIZAZ-yffUCC/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1Y-Ohg-Q8AiXLDJDoQxkMzA):   access_code: **cp6r**</br></br>
 
 ## License
 __`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
