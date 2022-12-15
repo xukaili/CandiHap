@@ -8,7 +8,6 @@ The installation package **integrates all the necessary modules** for **running 
 ## Download:
 **Software**:      [BioCode: CandiHap_win64_V1.3.0.zip](https://ngdc.cncb.ac.cn/biocode/tools/7080/releases/V1.3.0)
 
-**Test Data**:     [GitHub](https://github.com/xukaili/CandiHap/raw/master/test_data.zip)                [Google Drive](https://drive.google.com/file/d/1L2FTr1ktxU5Jgkuk4QXIJIMHHSzri9l4/view?usp=sharing)                [Baidu Pan](https://pan.baidu.com/s/1X4Tu1ha6d1caC518CBSHVA):   access_code: **i2sr**</br></br>
 
 ## License
 __`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
