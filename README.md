@@ -11,7 +11,7 @@ __`CandiHap`__ is a user-friendly local software, that can fast preselect candid
 And a new __`CandiHap`__ V2 R package is publicly available at https://github.com/guokai8/CandiHap ！</br>
 
 ## Download:
-**Download All Files**:      [BioCode:https://ngdc.cncb.ac.cn/biocode/tools/BT007080](https://ngdc.cncb.ac.cn/biocode/tools/BT007080)
+**Download All Files**:      [BioCode: https://ngdc.cncb.ac.cn/biocode/tools/BT007080](https://ngdc.cncb.ac.cn/biocode/tools/BT007080)
 
 ## License
 __`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
