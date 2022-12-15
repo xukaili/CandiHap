@@ -6,7 +6,7 @@
 First of all, please install __`GATK`__ (GenomeAnalysisTK.jar), __`Picard`__ (picard.jar), __`bwa`__, __`samtools`__, __`bcftools`__, __`bgzip`__, __`java`__ and __`R`__ (with sangerseqR).</br></br>
 
 ## Download:
-**Software**:      [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/BT007080/releases/V1.3.0)                [Google Drive](https://drive.google.com/file/d/1QgVMbSYx27_j_OYzu5OWWRshSehsoZkJ/view?usp=sharing)
+**Software**:       [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/BT007080/releases/V1.3.0)                [Google Drive](https://drive.google.com/file/d/1QgVMbSYx27_j_OYzu5OWWRshSehsoZkJ/view?usp=sharing)
 
 **Test Data**:     [BioCode](https://ngdc.cncb.ac.cn/biocode/tools/BT007080/releases/V1.3.0)                [Google Drive](https://drive.google.com/file/d/1ZiFGuFG01b4r_zsnbhqpaIZAZ-yffUCC/view?usp=sharing)
 </br></br>
