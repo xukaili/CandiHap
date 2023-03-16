@@ -17,7 +17,7 @@ And a new __`CandiHap`__ V2 R package is publicly available at https://github.co
 __`Academic users`__ may download and use the application free of charge according to the accompanying license.</br>
 __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 **If you have used the program to obtain results, please cite the following paper:**</br>
-> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Qianru Qie (郄倩茹), Jianhua Gao (高建华), Yiwei Jiang (姜亦巍), Yuanhuai Han (韩渊怀) & Xingchun Wang* (王兴春). CandiHap: a haplotype analysis toolkit for natural variation study. bioRxiv 2020.02.27.967539. doi: https://doi.org/10.1101/2020.02.27.967539</br>
+> Xukai Li☯* (李旭凯), Zhiyong Shi☯ (石志勇), Jianhua Gao (高建华), Xingchun Wang (王兴春), kai Guo* (郭凯). CandiHap: a haplotype analysis toolkit for natural variation study. Molecular Breeding, 2023, 43:21. doi: https://doi.org/10.1007/s11032-023-01366-4</br>
 > （☯ Equal contributors; * Correspondence）</br>
 </br>
 
