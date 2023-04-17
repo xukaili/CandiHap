@@ -31,7 +31,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 There are mainly three steps included in the CandiHap analytical through command lines, and the test data files can freely download at __`test_data.zip`__.</br>
 Put __`vcf2hmp.pl`__  test.gff, test.vcf, and genome.fa files in a same dir, then run:</br>
 ```sh
-     # 1. To annotate the vcf by ANNOVAR: 
+     # 1. To annotate the vcf by ANNOVAR (Version: 2019-10-24 00:05:27 -0400): 
      gffread  test.gff   -T -o test.gtf
      gtfToGenePred -genePredExt test.gtf  si_refGene.txt
      retrieve_seq_from_fasta.pl --format refGene --seqfile  genome.fa  si_refGene.txt --outfile si_refGeneMrna.fa
