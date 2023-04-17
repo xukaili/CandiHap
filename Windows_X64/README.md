@@ -18,7 +18,7 @@ __`Commercial users`__ must obtain a commercial license from Xukai Li.</br>
 </br>
 
 ## Getting started
-To annotate the vcf by ANNOVAR:</br>
+To annotate the vcf by ANNOVAR (Version: 2019-10-24 00:05:27 -0400):</br>
 ```sh
      gffread  test.gff   -T -o test.gtf
      gtfToGenePred -genePredExt test.gtf  si_refGene.txt
